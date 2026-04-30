@@ -22,7 +22,7 @@ Why: It takes the "messy" list created by the Greedy dispatcher and rearranges t
 * **Greedy Algorithm**: Handles real-time order arrivals.
 * **DP Optimizer**: Refines global routes to find the minimum distance.
 
-# Real-World Use Case:
+## Real-World Use Case:
 Uber/Lyft Pool: Greedy decides which rider to pick up immediately so they don't wait for a "Searching..." screen. 
 Once 3 riders are in the car, DP calculates the most efficient sequence of drop-offs to minimize total trip time.
 
